@@ -15,16 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex1-6.cpp">
+    <ClCompile Include="ex1- 1 0.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Student.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Student.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

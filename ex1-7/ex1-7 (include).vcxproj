@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a1c2eb71-d752-44a2-a87c-cd90bb65dd36}</ProjectGuid>
-    <RootNamespace>ex12</RootNamespace>
+    <ProjectGuid>{56b21877-a09b-4452-9de9-d718dc1f1b2a}</ProjectGuid>
+    <RootNamespace>ex17include</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>ex1-2 (method, this)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ex1-2.cpp" />
+    <ClCompile Include="ex1-7.cpp" />
+    <ClCompile Include="Student.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,8 +1,10 @@
-// שיעור 1 - דוגמא 6
+// שיעור 1 - דוגמא 7
 // מחלקה להגדרת תלמיד
-// מה מתאים להיות שדה
+// כיצד פועל הקדם מעבד
 
 #include <iostream> 
+#include <iostream> 
+#include "Student.h" 
 #include "Student.h" 
 
 
@@ -10,6 +12,7 @@ using namespace std;
 
 int main()
 {
+	cout << "It's work!!" << endl << endl;
 	Student me;
 	// me.grade=3;
 	//ERROR: cannot access private member

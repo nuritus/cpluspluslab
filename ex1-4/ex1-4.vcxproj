@@ -24,6 +24,7 @@
     <ProjectGuid>{99a95cff-9cb1-4719-b331-cccf7c878baf}</ProjectGuid>
     <RootNamespace>ex14</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>ex1-4(Data Abstraction)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
