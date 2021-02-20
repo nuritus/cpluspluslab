@@ -1,6 +1,11 @@
 // שיעור 1 - דוגמא 2
 // מחלקה למספרים רציונלים
 // הגדרה ושימוש בפעולות של עצם. שימוש בתכונות בתוך מתודה וזיהוי של this
+//Lesson 1 - Example 2
+//Class - Rational Numbers
+//Defining and using an object's methods.  
+//Defining and using an object's attributes inside a method.
+//Understanding the usage of "this".
 
 #include <iostream>
 using namespace std;

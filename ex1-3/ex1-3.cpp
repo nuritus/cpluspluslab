@@ -1,6 +1,10 @@
 // שיעור 1 - דוגמא 3
 // מחלקה למספרים רציונלים
 //מימוש פעולה של עצם ע"י אופרטור טווח ההכרה, פעולה שמקבלת פרמטר
+//Lesson 1 - Example 3
+//Class - Rational Problems
+//Using an initializer list
+//Writing a method which receives an object as a parameter
 
 #include <iostream>
 using namespace std;

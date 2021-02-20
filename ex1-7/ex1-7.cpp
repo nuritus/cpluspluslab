@@ -1,6 +1,9 @@
 // שיעור 1 - דוגמא 7
 // מחלקה להגדרת תלמיד
 // כיצד פועל הקדם מעבד
+//Lesson 1 - Example 7
+//Class - Student
+//How to use the preprocessor
 
 #include <iostream> 
 #include <iostream> 

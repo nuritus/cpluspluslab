@@ -1,6 +1,9 @@
 // שיעור 1 - דוגמא 8
 // מחלקה למספרים רציונלים
 // בנאי ובנאי ברירת מחדל
+//Lesson 1 - Example 8
+//Class - Rational Numbers
+//Constructors and Default Constructors
 
 #include "Rational.h"
 

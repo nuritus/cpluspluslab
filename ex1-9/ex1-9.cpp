@@ -1,6 +1,9 @@
 // שיעור 1 - דוגמא 9
 // מחלקת נקודה
 // אתחול בשורת ההצהרה
+//Lesson 1 - Example 9
+//Class - Point
+//Initializing an attribute
 
 #include <iostream>
 using namespace std;

@@ -1,6 +1,9 @@
 // שיעור 1 - דוגמא 10
 // מחלקת נקודה
 // החזרת עצם ממתודה
+//Lesson 1 - Example 10
+//Class - Point
+//Method returns an object
 
 #include <iostream>
 using namespace std;

@@ -1,6 +1,11 @@
 // שיעור 1 - דוגמא 4
 // מחלקה להגדרת מלבן
 // הפשטת נתונים - שדות פרטיים, מתודות אחזור והצבה
+//Lesson 1 - Example 4
+//Class - Rectangle
+//Data Abstraction - using private attributes
+//Usage of settersand getters
+
 #include <iostream>
 using namespace std;
 

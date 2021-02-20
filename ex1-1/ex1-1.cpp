@@ -1,6 +1,10 @@
 // שיעור 1 - דוגמא 1
 // מחלקה למספרים רציונלים
 //הגדרת עצם ומצביע לעצם, שימוש באופרטורי נקודה וחץ
+//Lesson 1 - Example 1
+//Class - Rational Numbers
+//Defining an object and a pointer to an object,
+//Using a pointand using an arrow to access an object's attributes
 
 #include <iostream>
 using namespace std;

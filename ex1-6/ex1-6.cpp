@@ -1,6 +1,9 @@
 // שיעור 1 - דוגמא 6
 // מחלקה להגדרת תלמיד
 // מה מתאים להיות שדה
+//Lesson 1 - Example 6
+//Class - Student
+//Deciding what should and should not be a method's  attribute
 
 #include <iostream> 
 #include "Student.h" 
