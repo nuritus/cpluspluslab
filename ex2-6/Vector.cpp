@@ -39,3 +39,11 @@ Vector::~Vector() {
         delete[] numbers;
     numbers = nullptr; //חשוב לא להשאיר מצביע מתנדנד
 }
+
+//Vector::Vector(const Vector& vec)
+//{
+//    size = vec.size;
+//    numbers = new int[size];
+//    for (int i = 0; i < size; i++)
+//        numbers[i] = vec.numbers[i];
+//}
