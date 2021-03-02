@@ -32,5 +32,8 @@ int main() {
 	num1.print();
 	num2.print();
 
+	Rational* num3 = new Rational();
+	num3->
+
 	return 0;
 }

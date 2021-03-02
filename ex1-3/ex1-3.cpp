@@ -21,6 +21,7 @@ public:
 void Rational::print()
 {
 	cout << numerator << '/' << denominator << endl;
+	
 }
 
 void Rational::multiply(Rational num)

@@ -5,7 +5,7 @@
 //Class - Student
 //Deciding what should and should not be a method's  attribute
 
-#include <iostream> 
+//#include <iostream> 
 #include "Student.h" 
 
 

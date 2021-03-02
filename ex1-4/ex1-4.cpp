@@ -13,13 +13,13 @@ class  Rect {
 //private:
     int length;
     int width;
+
 public:
-    void printArea()
-    {
-        cout << length * width << endl;
-    }
+//    void printArea();
+   
     int getLength()
     {
+        
         return length;
     }
     void setLength(int myLength)
@@ -41,14 +41,21 @@ public:
             width = myWidth;
         else
             width = 5;
+    
     }
 };  // end of Rect
 
+void Rect::printArea()
+{
+
+}
 int main() {
     Rect r;
     //r.length = 4;
     r.setLength(4); 
     cout << r.getLength();
+    r.printArea();
+ 
     
     return 0;
 }
