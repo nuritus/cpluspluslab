@@ -12,7 +12,7 @@ public:
     point(int X, int Y) : x(X), y(Y) { } //ctor 2
     point(const point& p) //copy ctor
     {
-        x = p.getX();  //p.x will be compilation error
+        x = p.getX();  
         y = p.getY();
     }
     int getX() const { return x; }

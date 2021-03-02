@@ -1,20 +1,32 @@
-// ex2-10.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// שיעור 2 - דוגמא 10
+// קבועים בהקשר של מחלקה
 
-#include <iostream>
+class MyClass
+{
+private:
+	int y;
+public:
+	void ex3()//const 
+	{
+		//אין התחייבות שהפונקציה לא משנה את הערך של העצם עליו היא פועלת
+	}
+	int ex4() const
+	{
+		//y = 6; //comp error!!
+		//this-> ex3(); //comp error!!
+		return y; //ok
+	};
+	const int* ex5()
+	{	
+		y = 8; 
+		return &y;
+	};
+};
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	MyClass a;
+	 //int* b = a.ex5(); //comp error!!
+	 const int* c = a.ex5();
+
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
