@@ -3,7 +3,9 @@
 using namespace std;
 
 point::point(int X, int Y) :x(X), y(Y)
-{ }
+{
+	x = 3;
+}
 
 void point::print()
 {

@@ -10,7 +10,7 @@ public:
 	//default constructor
 	point() { y = 0; }
 	
-	point(int, int);
+	point(int X , int Y );
 	
 	int getX() const { return x; }
 	int getY() const { return y; }
