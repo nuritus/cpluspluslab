@@ -5,6 +5,7 @@ class Point {
 	int y;
 public:
 	Point(int myX, int myY);
+	//Point() {}
 	~Point(); //לא הכרחי - כי המחלקה לא דינמית
 	void setX(int myX);
 	void setY(int myY);

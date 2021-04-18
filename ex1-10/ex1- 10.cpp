@@ -11,7 +11,7 @@ using namespace std;
 class Rational {
 public:
 	Rational(int num, int denom){ numerator = num; denominator = denom; }
-
+	Rational(const Rational& temp) {}
 	Rational square();
 	void print() { cout << numerator << '/' << denominator << endl; }
 
@@ -22,8 +22,8 @@ private:
 
 Rational Rational::square()
 {
-	// int numerator; //legal
-	return Rational(numerator * numerator, denominator * denominator);//זימון בנאי תוך כדי ההחזרה. אין צורך בשם לעצם שנבנה כך
+	 int numerator = 2; //legal
+//	return Rational(numerator * numerator, denominator * denominator);//זימון בנאי תוך כדי ההחזרה. אין צורך בשם לעצם שנבנה כך
 	return *this;
 }
 

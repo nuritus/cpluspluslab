@@ -4,7 +4,7 @@
 
 
 #include "Line.h"  
-#include "Point.h"
+//#include "Point.h"
 
 
 int main()
