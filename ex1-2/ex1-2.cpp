@@ -32,8 +32,13 @@ int main() {
 	num1.print();
 	num2.print();
 
+
+
 	Rational* num3 = new Rational();
-	num3->
+	num3->numerator = 4;
+	num3->denominator = 8;
+	num3->print();
+
 
 	return 0;
 }
