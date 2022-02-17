@@ -33,6 +33,6 @@ int main() {
 	cout << num2.numerator << '/' << num2.denominator << endl;
 	cout << pNum->numerator << '/' << pNum->denominator << endl;
 
-
+	delete(pNum);
 	return 0;
 }

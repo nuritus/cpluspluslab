@@ -24,7 +24,7 @@ int main()
 	cout << me.getGrade() << endl;
 
 	me.setMarks();
-	me.setAverage();
+	me.setAverage(); //ואם נשכח??
 	cout << me.getAverage() << endl;
 
 	return 0;

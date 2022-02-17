@@ -45,7 +45,7 @@ public:
     }
 };  // end of Rect
 
-void Rect::printArea()
+void Rect::printArea() // חובה להצהיר על המתודה בתוך המחלקה
 {
 
 }

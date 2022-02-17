@@ -2,13 +2,17 @@
 #include "Student.h"
 using namespace std;
 
+#define NUM 10 //הוראה לקדם-מעבד
+
+const const int YEAR = 12; //מה ההבדל בין שתי השורות הללו?
+
 void Student::setGrade()
 {
 	int year;
 	do {
 		cout << "enter your grade ";
 		cin >> year;
-	} while (year < 1 || year>12);
+	} while (year < 1 || year>YEAR);
 	grade = year;
 }
 
@@ -29,20 +33,16 @@ void Student::setMarks()
 	}
 }
 
-void Student::setAverage()
-{
-	average = sum() / 10.0;
-}
 
 int Student::sum()
 {
 	int s = 0;
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < NUM; i++)
 		s += marks[i];
 	return s;
 }
 
 float Student::getAverage() {
-	return average;
+	return (sum() / NUM);
 }
 
