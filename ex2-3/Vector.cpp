@@ -3,7 +3,7 @@
 using namespace std;
 
 Vector::Vector() //בנאי
-{
+{//אם לא נבצע את האיתחול של המערך בבנאי - ביצוע שאר הפונקציות יביא לשגיאת זמן ריצה
     cout << "enter 10 numbers\n";
     for (int i = 0; i < 10; i++)
         cin >> numbers[i];

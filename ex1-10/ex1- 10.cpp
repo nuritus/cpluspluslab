@@ -11,7 +11,7 @@ using namespace std;
 class Rational {
 public:
 	Rational(int num, int denom) { numerator = num; denominator = denom; }
-	Rational(const Rational& temp) {}
+	//Rational(const Rational& temp) {}//тег ма могре
 	
 	Rational square();
 	void print() { cout << numerator << '/' << denominator << endl; }
