@@ -22,8 +22,9 @@ MyString::MyString(const char* p) {
 	data = new char[len + 1];
 	strcpy_s(data, len + 1, p);
 }
-MyString::MyString(const MyString& s) :
-	MyString(s.data) {
+MyString::MyString(const MyString& s) : 
+										MyString(s.data)//שימוש בבנאי הרגיל לצורך בנאי העתקה
+{
 	cout << "cctor\n";
 }
 

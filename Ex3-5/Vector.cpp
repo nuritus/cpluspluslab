@@ -2,17 +2,17 @@
 #include <iostream>
 using namespace std;
 
-Vector::Vector(int sizeVec = 0) {
-    size = sizeVec; 
-    if (size < 0) size = 0;
-    float help = sqrt(size);
-          
-    capacity = pow(2, ceil(log(size) / log(2)));//יש לוודא שהגודל בפועל הוא חזקה של 2 וגדול או שווה לתכולה
-        
+
+Vector::Vector(int myCapacity) // implement ctor
+{
+    if (myCapacity > 0)
+        capacity = pow(2, ceil(log(myCapacity) / log(2)));
+    else
+        capacity = 2;
     data = new int[capacity];
-    srand((unsigned)time(NULL));
-    for (int i = 0; i < size; i++)
-        data[i] = rand() % 100;
+    for (int i = 0; i < capacity; i++)
+        data[i] = 0;
+    size = 0;
 }
 
 
@@ -24,9 +24,36 @@ Vector::Vector(const Vector& v) {
         data[i] = v.data[i];
 }
 
+Vector::Vector(Vector&& v)
+{
+    data = v.data;
+    capacity = v.capacity;
+    size = v.size;
+    v.data = nullptr;
+}
+
+
 Vector::~Vector() {
-    if (size)
+    if (data)
         delete[] data;
     data = nullptr;
 }
 
+
+Vector& Vector::operator=(Vector&& v)
+{
+    if (data)
+        delete[] data;
+    data = v.data;
+    capacity = v.capacity;
+    size = v.size;
+    v.data = nullptr;
+    return *this;
+}
+
+Vector& Vector::operator[](int index)
+{
+    if (index < size)
+        return vec[index];
+    return vec[0];
+};

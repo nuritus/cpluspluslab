@@ -18,14 +18,17 @@ public:
 	//move constructor
 	MyString(MyString&& s);
 };
+
 // in MyString.cpp:
-MyString::MyString(const char* p) {
+MyString::MyString(const char* p)
+{
 	len = strlen(p);
 	data = new char[len + 1];
 	strcpy_s(data, len + 1, p);
 }
 MyString::MyString(const MyString& s) :
-	MyString(s.data) {
+										MyString(s.data)
+{
 	cout << "cctor\n";
 }
 
@@ -42,6 +45,7 @@ MyString f() {
 	MyString temp("good day");
 	return temp; // cctor
 }
+
 int main() {
 	MyString s3 = "how are you?";
 	MyString s4 = s3; // cctor
