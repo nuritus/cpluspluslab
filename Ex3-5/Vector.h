@@ -13,6 +13,6 @@ public:
 
 	Vector& operator=(Vector&& v);//m-assignment
 
-	Vector& operator[](int index);
+	int& operator[](int index); //למה מחזיר שלם??
 
 };

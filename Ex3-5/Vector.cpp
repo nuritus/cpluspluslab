@@ -51,9 +51,9 @@ Vector& Vector::operator=(Vector&& v)
     return *this;
 }
 
-Vector& Vector::operator[](int index)
+int& Vector::operator[](int index)
 {
     if (index < size)
-        return vec[index];
-    return vec[0];
+        return data[index];
+    return data[0];
 };
