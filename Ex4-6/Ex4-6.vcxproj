@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9f43878d-5884-41f1-8ab9-fe39c7f1e930}</ProjectGuid>
-    <RootNamespace>Ex310</RootNamespace>
+    <ProjectGuid>{38a6f364-aa25-41db-a4de-e510585ca716}</ProjectGuid>
+    <RootNamespace>Ex46</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Ex3-10(MyString)</ProjectName>
+    <ProjectName>Ex4-6(friend class)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,11 +140,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ex3-10.cpp" />
-    <ClCompile Include="Mystring.cpp" />
+    <ClCompile Include="Crectangle.cpp" />
+    <ClCompile Include="Ex4-6.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Mystring.h" />
+    <ClInclude Include="CRectangle.h" />
+    <ClInclude Include="Csquare.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

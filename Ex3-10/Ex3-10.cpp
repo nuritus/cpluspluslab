@@ -1,3 +1,7 @@
+//שיעור 3  דוגמא 10
+//מחלקה עם שטחים דינמיים לטיפול במחרוזות
+//אופרטורים והזזות
+
 #include "Mystring.h"
 
 int main()
@@ -35,3 +39,53 @@ int main()
     MyString s8;
     cin >> s8;
 }
+
+//דוגמת הרצה עם הדפסות מפונקציות
+//ctor: hello
+//copy ctor : hello
+//ctor : how are you ?
+//--------
+//copy ctor : how are you ?
+//--------
+//ctor : good day
+//move ctor
+//dtor
+//--------
+//ctor : hi
+//operator= : how are you ?
+//--------
+//ctor : bye
+//ctor : good day
+//move ctor
+//dtor
+//move operator=
+//dtor
+//--------
+//ctor : hellohow are you ?
+//operator+ : hello
+//move ctor
+//dtor
+//move operator=
+//dtor
+//--------
+//ctor : hellohellohellohello
+//operator* : hello
+//move ctor
+//dtor
+//move operator=
+//dtor
+//--------
+//hellohellohellohello
+//operator<< : hellohellohellohello
+//
+//--------
+//5
+//efrat
+//dtor
+//dtor
+//dtor
+//dtor
+//dtor
+//dtor
+//dtor
+//dtor

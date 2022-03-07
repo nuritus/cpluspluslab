@@ -1,5 +1,3 @@
-//שיעור 3  דוגמא 7
-//העמסת אופרטורים
 #pragma once
 class Rational
 {

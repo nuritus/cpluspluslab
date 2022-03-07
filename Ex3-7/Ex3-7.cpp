@@ -1,3 +1,6 @@
+//שיעור 3  דוגמא 7
+//העמסת אופרטורים
+
 #include "Rational.h"
 
 void main()
