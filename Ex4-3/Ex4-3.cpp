@@ -30,5 +30,7 @@ Rational operator++(Rational& lhr, int u) {
 int main()
 {
     Rational num(1, 2);
+    num.operator++(2);
+    operator++(num, 2);
     num++;
 }

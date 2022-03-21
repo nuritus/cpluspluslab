@@ -8,7 +8,7 @@ using namespace std;
 
 void f()
 {
-	throw 23;
+	throw 23.0;
 }
 void main() {
 	try 
