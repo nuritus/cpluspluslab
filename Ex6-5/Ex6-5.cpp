@@ -25,4 +25,5 @@ int main() {
 	zuzik.print();//הסתרה של פונקציית האב
 
 	zuzik.father::print();
+
 }
