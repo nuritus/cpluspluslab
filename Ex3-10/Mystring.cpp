@@ -98,12 +98,24 @@ ostream& operator<<(ostream& os, const MyString& ms)
 
 istream& operator>>(istream& is, MyString& ms)
 {
-    is >> ms.len;
+    if (ms.str)
+
+        delete ms.str;
+
+    char temp[100];
+
+    is >> temp;
+
+    ms.len = strlen(temp);
 
     ms.str = new char[ms.len + 1];
-    is >> ms.str;
+
+    strcpy_s(ms.str, ms.len + 1, temp);
+
+    cout << "operator>> : " << ms.str << endl;
 
     return  is;
+
 }
 
 MyString::MyString(MyString&& ms)

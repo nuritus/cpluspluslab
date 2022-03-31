@@ -12,34 +12,47 @@ int main()
 
     MyString s3("how are you?"); //ctor of s3
 
-    cout << "--------" << endl;
+    cout << "----1----" << endl;
+
     MyString s4 = s3; //copy ctor from s3 to s4
 
-    cout << "--------" << endl;
-    MyString s5 = f(); //??????
+    cout << "----2----" << endl;
 
-    cout << "--------" << endl;
+    MyString s5 = f(); //move constructor
+
+    cout << "----3----" << endl;
+
     MyString s6("hi");
+
     s6 = s3; //assignment operator from s3 to s6
 
-    cout << "--------" << endl;
+    cout << "----4----" << endl;
+
     MyString s7("bye");
-    s7 = f(); //?????
 
-    cout << "--------" << endl;
-    s2 = s2 + s4;
+    s7 = f(); //move ctor and then move assignment operator
 
-    cout << "--------" << endl;
-    s1 = s1 * 4;
+    cout << "----5----" << endl;
 
-    cout << "--------" << endl;
-    cout << s1 << endl;
+    s2 = s2 + s4; //operator+ and then move ctor and then move assignment operator
 
-    cout << "--------" << endl;
+    cout << "----6----" << endl;
+
+    s1 = s1 * 4; //operator* and then move ctor and then move assignment operator
+
+    cout << "----7----" << endl;
+
+    cout << s1;
+
+    cout << "----8----" << endl;
+
     MyString s8;
-    cin >> s8;
-}
 
+    cin >> s8 >> s3;
+
+    cout << "----9----" << endl;
+
+}
 //דוגמת הרצה עם הדפסות מפונקציות
 //ctor: hello
 //copy ctor : hello
