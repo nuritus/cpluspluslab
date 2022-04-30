@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5ae11a31-eaba-4cdb-b54b-187aa313b04c}</ProjectGuid>
-    <RootNamespace>Ex716</RootNamespace>
+    <ProjectGuid>{d11c5372-b03a-45d5-9e97-bbbe2ddde646}</ProjectGuid>
+    <RootNamespace>Ex87</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Ex7-16(abstract calss)</ProjectName>
+    <ProjectName>Ex8-7(queue)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +140,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ex7-16.cpp" />
+    <ClCompile Include="DoubleEndedList.cpp" />
+    <ClCompile Include="Ex8-7.cpp" />
+    <ClCompile Include="List.cpp" />
+    <ClCompile Include="QueueList.cpp" />
+    <ClCompile Include="QueueVector.cpp" />
+    <ClCompile Include="Vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DoubleEndedList.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="QueueList.h" />
+    <ClInclude Include="QueueVector.h" />
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

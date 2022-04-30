@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5ae11a31-eaba-4cdb-b54b-187aa313b04c}</ProjectGuid>
-    <RootNamespace>Ex716</RootNamespace>
+    <ProjectGuid>{14d5d59b-aa9f-4be6-9edd-ed1985b40d46}</ProjectGuid>
+    <RootNamespace>Ex85</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Ex7-16(abstract calss)</ProjectName>
+    <ProjectName>Ex8-5 (nullptr)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ex7-16.cpp" />
+    <ClCompile Include="Ex8-5.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
