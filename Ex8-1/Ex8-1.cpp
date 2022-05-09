@@ -2,7 +2,7 @@
 //מספר תרגילים מורכבים על מחלקות
 //לא חובה. נכתבו ע"י מאיר קומר
 
-#define EX 1 //ניתן לשנות כאן את הערך על מנת לראות את שאר הדוגמאות
+#define EX 2 //ניתן לשנות כאן את הערך על מנת לראות את שאר הדוגמאות
 
 #include <iostream>
 using namespace std;
@@ -29,7 +29,7 @@ int main()
 }
 
 
-#elif A==2
+#elif EX==2
 
 class A {
 public:   A(int n = 0) : var1(n)

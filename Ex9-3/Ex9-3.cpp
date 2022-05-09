@@ -31,13 +31,14 @@ class MyClass
 
 };
 
-void main()
+int main()
 {
 	int sum = 7;
 	char initial = 'A';
 	Print(sum);
 	Print<char>(initial);
 	Print<float>(8);
+	MyClass mc;
 	Print<MyClass>(mc);	//operator << , + must be defined in MyClass
 
 	cout << mymax<int>(3, 4) << endl;
