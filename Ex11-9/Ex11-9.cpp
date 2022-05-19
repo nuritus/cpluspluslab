@@ -12,6 +12,7 @@ protected:
 		// constructor
 		Link(int linkValue, Link* nextPtr);
 		Link(const Link&);
+
 		// data areas
 		int value;
 		Link* next;

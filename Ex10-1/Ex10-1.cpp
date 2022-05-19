@@ -1,3 +1,7 @@
+//שיעור 10  דוגמא 1
+//מחלקות גנריות עץ ועץ חיפוש
+//מחלקה פנימית, אבסטקטית, ירושה, פולימורפיזם
+
 #include <iostream>
 using namespace std;
 #include "SearchTree.h"

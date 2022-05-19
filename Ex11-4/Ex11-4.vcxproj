@@ -24,6 +24,7 @@
     <ProjectGuid>{ba51c4cc-58e3-4717-82d1-9b1a79bd8a34}</ProjectGuid>
     <RootNamespace>Ex114</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Ex11-4(iterator types)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
