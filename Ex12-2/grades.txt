@@ -1,0 +1,4 @@
+netanel	100
+malca	99
+bini	56
+yair	34
